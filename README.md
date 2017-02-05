@@ -1,5 +1,5 @@
 # CouponProject_finalVersion_part1
-Coupon System Version 1.0 05/02/2017
+Coupon System Version 1.0,  05/02/2017
 
 GENERAL USAGE NOTES:
 ---------------------
