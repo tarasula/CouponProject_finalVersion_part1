@@ -48,13 +48,13 @@ public class MainTest {
 		 /*
 		  * Company actions
 		  */
-//	     companyAplied.createCoupon(coupon);
-//		 companyAplied.updateCoupon(coupon);
-//		 System.out.println(companyAplied.getCoupon(1023));
-//		 printItemList((List<?>) companyAplied.getAllCoupons());
-//		 printItemList((List<?>) companyAplied.getCouponsByType(CouponType.FOOD));
-//		 companyAplied.removeCoupon(coupon);
-//		 
+	     	 companyAplied.createCoupon(coupon);
+		 companyAplied.updateCoupon(coupon);
+		 System.out.println(companyAplied.getCoupon(1023));
+		 printItemList((List<?>) companyAplied.getAllCoupons());
+		 printItemList((List<?>) companyAplied.getCouponsByType(CouponType.FOOD));
+		 companyAplied.removeCoupon(coupon);
+		 
 		 
 		 /*
 		  * Customer LogIn
@@ -64,10 +64,10 @@ public class MainTest {
 		/*
 		 * Customer actions
 		 */
-//		 customerF.purchaseCoupon(coupon);
-//		 printItemList((List<?>) customerF.getAllPurchasedCoupons());
-//		 printItemList((List<?>) customerF.getAllPurchasedCouponsByPrice(2700));
-//		 printItemList((List<?>) customerF.getAllPurchasedCouponsByType(CouponType.ELECTRICITY));
+		 customerF.purchaseCoupon(coupon);
+		 printItemList((List<?>) customerF.getAllPurchasedCoupons());
+		 printItemList((List<?>) customerF.getAllPurchasedCouponsByPrice(2700));
+		 printItemList((List<?>) customerF.getAllPurchasedCouponsByType(CouponType.ELECTRICITY));
 
 		/*
 		 * Admin LogIn
@@ -92,18 +92,18 @@ public class MainTest {
 		/*
 		 * Admin actions
 		 */
-//		 adminF.createCompany(company);
-//		 adminF.updateCompany(company);
-//		 System.out.println(adminF.getCompany(3));
-//		 printItemList((List<?>) adminF.getAllCompanies());
-//		 adminF.removeCompany(company);
+		 adminF.createCompany(company);
+		 adminF.updateCompany(company);
+		 System.out.println(adminF.getCompany(3));
+		 printItemList((List<?>) adminF.getAllCompanies());
+		 adminF.removeCompany(company);
 
 		
-//		 adminF.createCustomer(cost);
-//		 adminF.updateCustomer(cost);
-//		 System.out.println(adminF.getCustomer(23));
-//		 printItemList((List<?>) adminF.getAllCustomers());
-//		 adminF.removeCustomer(cost);
+		 adminF.createCustomer(cost);
+		 adminF.updateCustomer(cost);
+		 System.out.println(adminF.getCustomer(23));
+		 printItemList((List<?>) adminF.getAllCustomers());
+		 adminF.removeCustomer(cost);
 		
 		/*
 		 * ShutDown of system
