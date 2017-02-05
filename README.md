@@ -14,7 +14,7 @@ GENERAL USAGE NOTES:
   
   
   
-- Coupon System program can be reached at:
+* Coupon System program can be reached at:
 
 Voice: +(972)546126442
 
