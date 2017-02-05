@@ -10,7 +10,14 @@ GENERAL USAGE NOTES:
   - Company, which can create, update and remove coupons. Can look at history or all coupons in company.
   - Administrator, which can look at all customers and companies. Can create, remove and update customers and companies.
   
-  This multi-threaded system that allows customers, companies and administrators to work simultaneously.
+  This multi-threaded system that allows customers, companies and administrators to work simultaneously.</br>
+  
+  <b>Main class giude:</b>
+    The method *printItemList(List<?> list)* use for print comming list items to the console.
+    The whole class is divided into parts and each part is divided into comments with description of relevant functionality block.
+    The *doc* folder include JavaDocs of all classes with description of each method and field.
+    The last line in Main method turn off the system.
+    
   
   
   
