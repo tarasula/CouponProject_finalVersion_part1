@@ -12,7 +12,7 @@ GENERAL USAGE NOTES:
   
   This multi-threaded system that allows customers, companies and administrators to work simultaneously.</br>
   
-  <b>Main class giude:</b>
+  <b>Main class giude:</b></br>
     The method *printItemList(List<?> list)* use for print comming list items to the console.
     The whole class is divided into parts and each part is divided into comments with description of relevant functionality block.
     The *doc* folder include JavaDocs of all classes with description of each method and field.
