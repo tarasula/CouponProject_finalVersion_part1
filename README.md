@@ -14,8 +14,10 @@ GENERAL USAGE NOTES:
   
   
   
-Coupon System program can be reached at:
+Coupon System program can be reached at:-
 
 Voice: +972546126442
+
 Email: andreyorlov86@gmail.com
+
 LinkedIn: https://il.linkedin.com/in/andrey-orlov-937b818a
