@@ -19,7 +19,7 @@ GENERAL USAGE NOTES:
     The last line in Main method turn off the system.</br></br>
     
   
-  
+  - Java Docs is in **doc** folder 
   
 <b>Coupon System program can be reached at:</b>
 
