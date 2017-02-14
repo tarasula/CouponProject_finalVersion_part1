@@ -30,6 +30,7 @@ public class CouponSystem {
 	{
 		 dceTask = new DailyCouponExpirationTask();
 		 Thread dailyCouponExpirationTask = new Thread(new DailyCouponExpirationTask());
+		 dailyCouponExpirationTask.setDaemon(true);
 		 dailyCouponExpirationTask.start();
 	}
 
