@@ -36,8 +36,6 @@ public class DailyCouponExpirationTask implements Runnable {
 		Calendar calendar = Calendar.getInstance();
 		Date today = calendar.getTime();
 		
-		while (!Thread.currentThread().isInterrupted()) 
-		{
 			ArrayList<Coupon> allCouponsList = null;
 			try {
 				allCouponsList = (ArrayList<Coupon>) couponDAO.getAllCoupon();
@@ -60,7 +58,6 @@ public class DailyCouponExpirationTask implements Runnable {
 				} catch (InterruptedException e) {
 					System.err.println(e.getMessage());
 				}
-			} 
 	}
 
 	/**
@@ -68,7 +65,6 @@ public class DailyCouponExpirationTask implements Runnable {
 	 */
 	public void stopTask()
 	{
-		Thread.currentThread().interrupt();
 		quitFlag = true;
 		System.out.println("Deily task is stopped.");
 	}
