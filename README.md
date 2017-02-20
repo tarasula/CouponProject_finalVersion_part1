@@ -21,7 +21,7 @@ GENERAL USAGE NOTES:
   
   - Java Docs is in **doc** folder 
   
-  <h4> Manual for Import DB file to Microsoft SQL Management Studio</h4>
+  <h4><b> Manual for Import DB file to Microsoft SQL Management Studio:</b></h4>
   
     1. Connect to the instance of SQL Server, whether on-premise or in SQL Database.
     2. In <b>Object Explorer</b>, right-click on <b>Databases</b>, and then select the <b>Import Data-tier Application</b> menu item to  launch the wizard.
