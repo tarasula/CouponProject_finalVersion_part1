@@ -21,9 +21,10 @@ GENERAL USAGE NOTES:
   
   - Java Docs is in **doc** folder 
   
-  <h5> Manual for Import DB file to Microsoft SQL Management Studio</h5>
+  <h4> Manual for Import DB file to Microsoft SQL Management Studio</h4>
+  
       - Connect to the instance of SQL Server, whether on-premise or in SQL Database.
-      - In <b>Object Explorer</b>, right-click on <b>Databases</b>, and then select the <b>Import Data-tier Application</b> menu item to launch the wizard.
+      - In <b>Object Explorer</b>, right-click on <b>Databases</b>, and then select the <b>Import Data-tier Application</b> menu item to  launch the wizard.
       Complete the wizard dialogs:
           Introduction Page
           Import Settings Page
@@ -33,7 +34,7 @@ GENERAL USAGE NOTES:
           Results Page
      
      
-     Import Settings Page
+        Import Settings Page
         Use this page to specify the location of the .bacpac file to import.
         Import from local disk – Click Browse… to navigate the local computer, or specify the path in the space provided. The path name must include a file name and the .bacpac extension.
   
