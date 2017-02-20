@@ -23,16 +23,15 @@ GENERAL USAGE NOTES:
   
   <h4> Manual for Import DB file to Microsoft SQL Management Studio</h4>
   
-      - Connect to the instance of SQL Server, whether on-premise or in SQL Database.
-      - In <b>Object Explorer</b>, right-click on <b>Databases</b>, and then select the <b>Import Data-tier Application</b> menu item to  launch the wizard.
-      Complete the wizard dialogs:
+    1. Connect to the instance of SQL Server, whether on-premise or in SQL Database.
+    2. In <b>Object Explorer</b>, right-click on <b>Databases</b>, and then select the <b>Import Data-tier Application</b> menu item to  launch the wizard.
+    3. Complete the wizard dialogs:
           Introduction Page
           Import Settings Page
           Database Settings Page
           Summary Page
           Progress Page
           Results Page
-     
      
         Import Settings Page
         Use this page to specify the location of the .bacpac file to import.
