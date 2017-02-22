@@ -11,25 +11,35 @@ public class LogInException extends Exception{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	private String message;
 	
 	public LogInException(ClientType type){
 		switch (type) {
 		case CUSTOMER:
-			super(CustomerConstants.LOGIN_FAILED);
+			this.message = CustomerConstants.LOGIN_FAILED;
 			break;
 		case COMPANY:
-			super(CompanyConstants.LOGIN_FAILED);
+			this.message = CompanyConstants.LOGIN_FAILED;
 			break;
 		case ADMINISTRATOR:
-			super(AdminConstants.LOGIN_FAILED);
+			this.message = AdminConstants.LOGIN_FAILED;
 			break;
 		case ADMIN:
-			super(AdminConstants.LOGIN_FAILED);
+			this.message = AdminConstants.LOGIN_FAILED;
 			break;
 		}
 	}
 	
 	public LogInException(String message){
-		super(message);
+		this.message = message;
+	}
+	
+	/**
+	 * (non-Javadoc)
+	 * @see java.lang.Throwable#getMessage()
+	 */
+	@Override
+	public String getMessage() {
+		return message;
 	}
 }
