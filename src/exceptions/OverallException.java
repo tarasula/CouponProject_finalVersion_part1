@@ -12,7 +12,6 @@ public class OverallException extends Exception {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String message;
 
 	/**
 	 * Create exception object
@@ -21,16 +20,6 @@ public class OverallException extends Exception {
 	 */
 	public OverallException(String massage) 
 	{
-		this.message = massage;
-	}
-
-	/**
-	 * (non-Javadoc)
-	 * @see java.lang.Throwable#getMessage()
-	 */
-	@Override
-	public String getMessage() 
-	{
-		return message;
+		super(massage);
 	}
 }
