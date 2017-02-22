@@ -38,8 +38,11 @@ GENERAL USAGE NOTES:
         Import from local disk – Click Browse… to navigate the local computer, or specify the path in the space provided. The path name must include a file name and the .bacpac extension.
   
   <b>Requirements for installation:</b>
+  
   -Minimal Operation System - Windows XP
+  
   -JVM + IDE
+  
   -SQL Data Base + SQL Managenet Studio
   
 <b>Coupon System program can be reached at:</b>
